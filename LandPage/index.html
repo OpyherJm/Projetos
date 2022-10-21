@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Link Style CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- IconMoon CSS -->
+    <link rel="stylesheet" href="assests/icomoon/style.css" />
+    <!-- Link Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <title>LangPage</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header id="header">
+      <div class="logo">
+        <div class="svg-logo"></div>
+      </div>
+
+      <nav class="nav">
+        <div class="menu">
+          <li><a href="#home">Inicio</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#services">Serviços</a></li>
+          <li><a href="#testimonials">Avaliações</a></li>
+          <li><a href="#contacts" class="btn-contact">Contato</a></li>
+        </div>
+        <div class="menu-burger">
+          <i class="icon-menu toggle"></i>
+          <i class="icon-x toggle"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- HOME -->
+      <section id="home" class="flex">
+        <div class="home-text">
+          <h1>
+            <span>BEM-VINDO,</span> Lorem ipsum dolor, sit amet consectetur
+            adipisicing.
+          </h1>
+          <p class="paragrafh">
+            A galeria é um centro para os amantes da arte, mas também uma
+            alternativa para a pessoa comum, para o indivíduo artístico, para o
+            amante da arte.
+          </p>
+          <div class="input-email">
+            <input
+              type="email"
+              name="emailHome"
+              id="inputEmailHome"
+              placeholder="Cadastra Email"
+            />
+            <label for="inputEmailHome">@</label>
+            <button type="submit" class="inputEmail btn-1">ENVIAR</button>
+          </div>
+        </div>
+        <div class="home-img"></div>
+      </section>
+      <div class="divider-wave"></div>
+
+      <!-- ABOUT -->
+      <section id="about" class="flex">
+        <div class="about-text">
+          <h2 class="margin-bottom-text">SOBRE NÓS</h2>
+          <p class="paragrafh margin-bottom-text">
+            Somos uma galeria comunitária que oferece obras de artistas com uma
+            ampla gama de carreira e experiência artística. Nosso objetivo é
+            promover artistas ousados, independentes e inspiradores. Tentamos
+            promover a arte a partir de uma gama diversificada de estilos e
+            temas, a fim de criar experiências que desafiem a percepção de arte
+            do espectador.
+          </p>
+          <a href="#services" class="btn-1">Ver produtos</a>
+        </div>
+        <div class="about-img"></div>
+      </section>
+
+      <!-- SERVICES -->
+      <section id="services">
+        <div class="content flex">
+          <div class="content-text">
+            <h2 class="margin-bottom-text">APRIMORE SEU NEGÓCIO</h2>
+            <p class="paragrafh margin-bottom-text">
+              Colaboramos com muitos artistas que compartilham nosso compromisso
+              com a comunidade e a arte. Por exemplo, ajudamos a produzir uma
+              série de exposições no North Central Arts Center, incluindo nossa
+              primeira, The Art of Rehearsal, que foi realizada no The
+              Woodbridge Arts Center em 2015. Também estamos envolvidos em
+              vários projetos culturais menores para pessoas da comunidade,
+              incluindo uma série de apresentações ao vivo de artistas locais,
+              com um novo programa de oficinas criativas no Woodbridge Arts
+              Center.
+            </p>
+            <a href="#contacts" class="btn-1">Entre em Contato</a>
+          </div>
+          <div class="content-img"></div>
+        </div>
+
+        <div class="pricing">
+          <div class="pricing-text">
+            <h2 class="margin-bottom-text">MELHORES PREÇOS PARA VOCÊ</h2>
+            <p class="paragrafh margin-bottom-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+              excepturi quibusdam assumenda odit similique?
+            </p>
+          </div>
+          <div class="cards">
+            <div class="card">
+              <h3 class="plano-card">Básico</h3>
+              <h2 class="pricing-card">R$39,90/<span>2 unid.</span></h2>
+              <div class="margin-bottom-text">
+                <p>Arte criativa</p>
+                <p>PNG ou JPEG</p>
+                <p class="disable">Frete Gratis</p>
+                <p class="disable">24h de Garantia</p>
+              </div>
+              <a href="#" class="btn-1">Quero esse plano</a>
+            </div>
+            <div class="card">
+              <h3 class="plano-card">Premium</h3>
+              <h2 class="pricing-card">R$79,90/<span>5 unid.</span></h2>
+              <div class="margin-bottom-text">
+                <p>Arte criativa</p>
+                <p>PNG, JPEG ou Físico</p>
+                <p>Frete Gratis</p>
+                <p>24h de Garantia</p>
+              </div>
+              <a href="#" class="btn-1">Quero esse plano</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TESTIMONIALS -->
+      <section id="testimonials">
+        <h2 class="margin-bottom-text">O QUE NOSSO CLIENTES FALAM SOBRE NÓS</h2>
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide testimonial">
+              <div class="client-top margin-bottom-text">
+                <img
+                  src="https://randomuser.me/api/portraits/women/26.jpg"
+                  alt="Foto de cliente"
+                />
+                <h3>Dany Walter</h3>
+              </div>
+              <div class="client-feedback">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
+                laudantium ad doloribus quod modi enim rem! Reiciendis culpa
+                commodi, nobis eius sunt necessitatibus perferendis tempora
+                asperiores harum, ipsum vero alias. Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Nesciunt, dignissimos?
+              </div>
+            </div>
+            <div class="swiper-slide testimonial">
+              <div class="client-top margin-bottom-text">
+                <img
+                  src="https://randomuser.me/api/portraits/men/26.jpg"
+                  alt="Foto de cliente"
+                />
+                <h3>Kishimoto Nakamura</h3>
+              </div>
+              <div class="client-feedback">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
+                laudantium ad doloribus quod modi enim rem! Reiciendis culpa
+                commodi, nobis eius sunt necessitatibus perferendis tempora
+                asperiores harum, ipsum vero alias. Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Nesciunt, dignissimos?
+              </div>
+            </div>
+            <div class="swiper-slide testimonial">
+              <div class="client-top margin-bottom-text">
+                <img
+                  src="https://randomuser.me/api/portraits/women/29.jpg"
+                  alt="Foto de cliente"
+                />
+                <h3>Yasmin Gabriela</h3>
+              </div>
+              <div class="client-feedback">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
+                laudantium ad doloribus quod modi enim rem! Reiciendis culpa
+                commodi, nobis eius sunt necessitatibus perferendis tempora
+                asperiores harum, ipsum vero alias. Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Nesciunt, dignissimos?
+              </div>
+            </div>
+            <div class="swiper-slide testimonial">
+              <div class="client-top margin-bottom-text">
+                <img
+                  src="https://randomuser.me/api/portraits/men/46.jpg"
+                  alt="Foto de cliente"
+                />
+                <h3>Daniel Vayter</h3>
+              </div>
+              <div class="client-feedback">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
+                laudantium ad doloribus quod modi enim rem! Reiciendis culpa
+                commodi, nobis eius sunt necessitatibus perferendis tempora
+                asperiores harum, ipsum vero alias. Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Nesciunt, dignissimos?
+              </div>
+            </div>
+          </div>
+          <!-- Add Pagination -->
+          <div class="swiper-pagination"></div>
+          <!-- Add Arrows -->
+        </div>
+      </section>
+
+      <!-- CONTACTS -->
+      <section id="contacts">
+        <div class="enter-email">
+          <h2 class="margin-bottom-text">Entre em contato</h2>
+          <p class="paragrafh margin-bottom-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe,
+            corporis laudantium? Et, fuga. Quam, possimus. Lorem ipsum dolor sit
+            amet consectetur adipisicing elit. Deserunt delectus neque repellat,
+            sunt odit ea.
+          </p>
+          <div class="input-email">
+            <input
+              type="email"
+              name="emailHome"
+              id="inputEmailHome"
+              placeholder="Mande uma mensagem"
+            />
+            <label for="inputEmailHome">@</label>
+            <button type="submit" class="inputEmail btn-1">ENVIAR</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer id="footer">
+      <div>
+        <div class="logo">
+          <div class="svg-logo"></div>
+        </div>
+        <div class="social-media">
+          <a href="https://pt-br.facebook.com/login/device-based/regular/login/"
+            ><i class="icon-facebook"></i
+          ></a>
+          <a href="https://www.instagram.com/opyher/"
+            ><i class="icon-instagram"></i
+          ></a>
+          <a href="https://www.youtube.com/channel/UCRWJb64oHw5tpUQfdytcXOQ"
+            ><i class="icon-youtube"></i
+          ></a>
+        </div>
+      </div>
+      <div class="footer-text">
+        <p>Site feito por Opyher &copy; Todos os Direitos Reservados</p>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- Script JS -->
+    <script src="script.js"></script>
+  </body>
+</html>
