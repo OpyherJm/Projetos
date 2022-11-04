@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap");
+
+/* settings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --Dark-cyan: hsl(158, 36%, 37%);
+  --Cream: hsl(30, 38%, 92%);
+  --Very-dark-blue: hsl(212, 21%, 14%);
+  --Dark-grayish-blue: hsl(228, 12%, 48%);
+  --White: hsl(0, 0%, 100%);
+
+  --font-family-Montserrat: "Montserrat", sans-serif;
+  --font-family-Fraunces: "Fraunces", serif;
+}
+
+/* BODY */
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: var(--font-family-Montserrat);
+  background-color: var(--Cream);
+
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  padding: 1rem;
+}
+/* MAIN */
+main {
+  max-width: 375px;
+  background-color: var(--White);
+  border-radius: 0.6rem;
+}
+/* FIGURE */
+picture img {
+  width: 100%;
+  border-radius: 0.6rem 0.6rem 0 0;
+}
+
+/* TEXT-BODY */
+.text-body {
+  padding: 1rem 1.2rem;
+}
+p,
+h1,
+h2 {
+  padding-bottom: 0.67rem;
+}
+span.category {
+  font-size: 0.67rem;
+  color: var(--Dark-grayish-blue);
+  letter-spacing: 0.3rem;
+}
+h1 {
+  font-size: 1.59rem;
+  text-align: left;
+  margin-top: 0.67rem;
+  font-family: var(--font-family-Fraunces);
+}
+p.description {
+  font-size: 0.75rem;
+  line-height: 1.2rem;
+  text-align: left;
+  color: var(--Dark-grayish-blue);
+}
+
+.price {
+  font-size: 1.59rem;
+  font-family: var(--font-family-Fraunces);
+  color: var(--Dark-cyan);
+  display: flex;
+  align-items: center;
+}
+.price span {
+  color: var(--Dark-grayish-blue);
+  font-size: 0.67rem;
+  font-family: sans-serif;
+  text-decoration: line-through;
+  margin-left: 0.67rem;
+  /* position: absolute;
+  top: 50%;
+  transform: translate(0, -50%); */
+}
+
+button {
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 0.6rem;
+  border: none;
+  border-radius: 0.4rem;
+  background-color: var(--Dark-cyan);
+  font-family: var(--font-family-Montserrat);
+  font-weight: 700;
+  font-size: 0.67rem;
+  color: var(--White);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 712px) {
+  main {
+    max-width: 575px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  picture img {
+    width: 100%;
+    border-radius: 0.6rem 0 0 0.6rem;
+  }
+}
